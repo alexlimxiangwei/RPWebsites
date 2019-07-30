@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
         tv2 = findViewById(R.id.tv2);
 
         wv.setWebViewClient(new WebViewClient());
+        wv.getSettings().setJavaScriptEnabled(true);
+        wv.getSettings().setDisplayZoomControls(true);
 
         pref = PreferenceManager.getDefaultSharedPreferences(MainActivity.this);
         edit = pref.edit();
@@ -75,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
         sites = new String[][]{
                 {
-                    "https://rp.edu.sg/", "https://www.rp.edu.sg/student-life"
+                    "https://www.rp.edu.sg/", "https://www.rp.edu.sg/student-life"
                 },
                 {
                     "https://www.rp.edu.sg/soi/full-time-diplomas/details/r47", "https://www.rp.edu.sg/soi/full-time-diplomas/details/r12"
