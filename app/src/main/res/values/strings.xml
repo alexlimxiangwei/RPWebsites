@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">RP Websites</string>
+    <string name="cat">Category</string>
+    <string name="go">go</string>
+    <string name="sub">sub-category</string>
+
+    <string-array name="cat">
+        <item>"RP"</item>
+        <item>"SOI</item>
+    </string-array>
+
+    <string-array name="rp">
+        <item>"Homepage</item>
+        <item>"Student Life"</item>
+    </string-array>
+
+    <string-array name="soi">
+        <item>"DMSD"</item>
+        <item>"DIT"</item>
+    </string-array>
+</resources>
