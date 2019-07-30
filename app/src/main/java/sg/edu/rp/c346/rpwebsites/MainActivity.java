@@ -134,5 +134,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
+    }
+    @Override
+    public void onBackPressed()
+    {
+        spnCat.setVisibility(View.VISIBLE);
+        spnSub.setVisibility(View.VISIBLE);
+        btnGo.setVisibility(View.VISIBLE);
+        tv1.setVisibility(View.VISIBLE);
+        tv2.setVisibility(View.VISIBLE);
     }
 }
